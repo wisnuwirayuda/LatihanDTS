@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Latihan DTS</string>
+    <string name="btn_input_nama">INPUT NAMA</string>
+    <string name="btn_calculator">KALKULATOR</string>
+    <string name="btn_listview">LIST VIEW</string>
+    <string name="txt_kalkulator_title">Masukan Angka</string>
+    <string name="txt_kalkulator_input1"></string>
+    <string name="txt_kalkulator_input2"></string>
+    <string name="btn_kalkulator_tambah">+</string>
+    <string name="btn_kalkulator_kurang">-</string>
+    <string name="btn_kalkulator_bagi">/</string>
+    <string name="btn_kalkulator_kali">*</string>
+    <string name="btn_kalkulator_bersihkan">Bersihkan</string>
+    <string name="txt_kalkulator_title2">Hasil</string>
+</resources>

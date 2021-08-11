@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KalkulatorActivity">
+
+    <TextView
+        android:id="@+id/txt_kalkulator_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/txt_kalkulator_title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txt_kalkulator_input1"
+        android:layout_width="175dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="20dp"
+        android:autofillHints="Angka 1"
+        android:ems="10"
+        android:hint="Angka 1"
+        android:inputType="numberDecimal"
+        app:layout_constraintStart_toStartOf="@+id/txt_kalkulator_title"
+        app:layout_constraintTop_toBottomOf="@+id/txt_kalkulator_title" />
+
+    <EditText
+        android:id="@+id/txt_kalkulator_input2"
+        android:layout_width="175dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:hint="Angka 2"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_kalkulator_title" />
+
+    <Button
+        android:id="@+id/btn_kalkulator_tambah"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/btn_kalkulator_tambah"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_kalkulator_input1" />
+
+    <Button
+        android:id="@+id/btn_kalkulator_kurang"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/btn_kalkulator_kurang"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/txt_kalkulator_input1"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/btn_kalkulator_tambah"
+        app:layout_constraintTop_toBottomOf="@+id/txt_kalkulator_input1" />
+
+    <Button
+        android:id="@+id/btn_kalkulator_bagi"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/btn_kalkulator_bagi"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/txt_kalkulator_input2"
+        app:layout_constraintTop_toBottomOf="@+id/txt_kalkulator_input2" />
+
+    <Button
+        android:id="@+id/btn_kalkulator_kali"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/btn_kalkulator_kali"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/txt_kalkulator_input2"
+        app:layout_constraintTop_toBottomOf="@+id/txt_kalkulator_input2" />
+
+    <Button
+        android:id="@+id/btn_kalkulator_bersihkan"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/btn_kalkulator_bersihkan"
+        app:layout_constraintEnd_toEndOf="@+id/btn_kalkulator_kali"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/btn_kalkulator_tambah"
+        app:layout_constraintTop_toBottomOf="@+id/btn_kalkulator_kurang" />
+
+    <TextView
+        android:id="@+id/txt_kalkulator_title2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/txt_kalkulator_title2"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_kalkulator_bersihkan" />
+
+    <TextView
+        android:id="@+id/txt_kalkulator_jawaban"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_kalkulator_title2" />
+</androidx.constraintlayout.widget.ConstraintLayout>
