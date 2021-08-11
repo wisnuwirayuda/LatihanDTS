@@ -1,5 +1,5 @@
 # LatihanDTS
-Ini adalah project latihan Digitalent Scholarship, yaitu membuat kalkulator sederhana. Berikut tampilan aplikasi tersebut:
+Ini adalah project menggunakan Java, yaitu membuat kalkulator sederhana. Berikut tampilan aplikasi tersebut:
 
 - Tampilan Awal
 ![Screenshot_2021-08-11-22-30-24-035_go id kominfo latihandts](https://user-images.githubusercontent.com/71024624/129059705-5612e9a3-4289-48b8-a0ee-a0ee5343f93d.jpg)
