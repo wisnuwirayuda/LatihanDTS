@@ -9,10 +9,26 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.LatihanDTS">
-        <activity android:name=".ListActivity"></activity>
-        <activity android:name=".KalkulatorActivity" />
-        <activity android:name=".InputNamaActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".list.HondurasActivity"></activity>
+        <activity android:name=".list.FilipinaActivity" />
+        <activity android:name=".list.DenmarkActivity" />
+        <activity android:name=".list.BangladeshActivity" />
+        <activity android:name=".list.AustraliaActivity" />
+        <activity android:name=".list.GermanyActivity" />
+        <activity android:name=".list.SpainActivity" />
+        <activity android:name=".list.ArgentinaActivity" />
+        <activity android:name=".list.BrazilActivity" />
+        <activity android:name=".list.ArabActivity" />
+        <activity android:name=".list.BruneiActivity" />
+        <activity android:name=".list.IndiaActivity" />
+        <activity android:name=".list.KoreaActivity" />
+        <activity android:name=".list.JapanActivity" />
+        <activity android:name=".list.ChinaActivity" />
+        <activity android:name=".list.IndonesiaActivity" />
+        <activity android:name=".activity.ListActivity" />
+        <activity android:name=".activity.KalkulatorActivity" />
+        <activity android:name=".activity.InputNamaActivity" />
+        <activity android:name=".activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
