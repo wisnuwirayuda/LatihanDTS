@@ -13,4 +13,9 @@
     <string name="btn_kalkulator_bersihkan">Bersihkan</string>
     <string name="txt_kalkulator_title2">Hasil</string>
     <string name="txt_indonesia">Ini Negara Indonesia</string>
+    <string name="btn_buat">Buat File</string>
+    <string name="btn_ubah">Ubah File</string>
+    <string name="btn_baca">Baca File</string>
+    <string name="btn_hapus">Hapus File</string>
+    <string name="edtInput"></string>
 </resources>

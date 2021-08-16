@@ -16,7 +16,7 @@ import go.id.kominfo.latihandts.R;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    Button btn_input_nama, btn_kalkulator,btn_listview;
+    Button btn_input_nama, btn_kalkulator,btn_listview, btn_internal_storage;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,10 +25,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btn_input_nama = findViewById(R.id.btn_input_nama);
         btn_kalkulator = findViewById(R.id.btn_calculator);
         btn_listview = findViewById(R.id.btn_listview);
+        btn_internal_storage = findViewById(R.id.btn_internal_storage);
 
         btn_input_nama.setOnClickListener(this);
         btn_kalkulator.setOnClickListener(this);
         btn_listview.setOnClickListener(this);
+        btn_internal_storage.setOnClickListener(this);
     }
 
     @Override
@@ -66,6 +68,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.btn_listview:
                     Intent intentListView = new Intent(this, ListActivity.class);
                     startActivity(intentListView);
+                break;
+            case R.id.btn_internal_storage:
+                Intent intentInternalStorage = new Intent(this, InternalStorageActivity.class);
+                startActivity(intentInternalStorage);
                 break;
         }
     }

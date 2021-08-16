@@ -13,7 +13,7 @@ import go.id.kominfo.latihandts.R;
 
 public class KalkulatorActivity extends AppCompatActivity {
 
-    int txt_kalkulator_input1, txt_kalkulator_input2, txt_kalkulator_jawaban, num1, num2;
+    int num1, num2;
     EditText nilai1, nilai2;
     TextView jawaban;
     Button btn_kalkulator_tambah, btn_kalkulator_kurang, btn_kalkulator_bagi, btn_kalkulator_kali, btn_kalkulator_bersihkan;
